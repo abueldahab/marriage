@@ -29,9 +29,6 @@ body {
 }
 #background div{
     display: inline-block;
-    margin-left: 160px;
-    margin-top: 690px;
-}
-#background div#days{
-    margin-left: 130px;
+    margin-left: 200px;
+    margin-top: 680px;
 }

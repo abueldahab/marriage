@@ -3,9 +3,14 @@
   var controller;
 
   controller = function($scope) {
-    $scope.days = 0;
-    $scope.hours = 0;
-    return $scope.minutes = 0;
+    var Base;
+    Base = moment("20131003", "YYYYMMDD").endOf('day');
+    $scope.time = Base.fromNow();
+    return setInterval(function() {
+      return $scope.$apply(function() {
+        return $scope.time = Base.fromNow();
+      });
+    }, 60 * 60 * 1000);
   };
 
   angular.module('marriageApp').controller('MainCtrl', ['$scope', controller]);
