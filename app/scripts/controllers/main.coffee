@@ -1,9 +1,8 @@
-'use strict'
+controller =  ($scope) ->
+    $scope.days = 0
+    $scope.hours = 0
+    $scope.minutes = 0
 
 angular.module('marriageApp')
-  .controller 'MainCtrl', ($scope) ->
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate'
-      'AngularJS'
-      'Karma'
-    ]
+  .controller 'MainCtrl',
+    ['$scope', controller]

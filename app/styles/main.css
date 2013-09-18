@@ -20,3 +20,18 @@ body {
     line-height: 1;
     letter-spacing: -1px;
 }
+
+#background{
+    margin: 0 auto;
+    background: url(bg.png) no-repeat 0 0;
+    width: 1211px;
+    height: 785px;
+}
+#background div{
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 690px;
+}
+#background div#days{
+    margin-left: 130px;
+}
