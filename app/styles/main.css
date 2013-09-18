@@ -1,5 +1,6 @@
 body {
     background: #fafafa;
+    background: url(pattern.png) repeat 0 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
