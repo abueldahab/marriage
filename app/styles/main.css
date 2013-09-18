@@ -25,12 +25,12 @@ body {
 #background{
     margin: 0 auto;
     background: url(bg.png) no-repeat 0 0;
-    width: 1211px;
-    height: 785px;
+    width: 835px;
+    height: 600px;
 }
 #background div{
     display: inline-block;
-    margin-left: 300px;
-    margin-top: 530px;
+    margin-left: 190px;
+    margin-top: 410px;
     color: #990510;
 }
